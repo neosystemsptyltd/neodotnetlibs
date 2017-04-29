@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>neosystems.tools</id>
+    <version>0.0.1-alpha</version>
+    <authors>armand</authors>
+    <owners>armand</owners>
+    <licenseUrl>https://www.gnu.org/licenses/lgpl-3.0.en.html</licenseUrl>
+    <projectUrl>https://github.com/neosystemsptyltd/neosystems.tools</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Neo Systems (Pty) Ltd General .NET library/tools</description>
+    <releaseNotes>First alpha release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>neo systems tools files serialport array web enum ascii bcd currency datetime encryption list type text settings scanner scanf refelection console math email </tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+</package>
