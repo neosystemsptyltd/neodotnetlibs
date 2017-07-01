@@ -59,6 +59,7 @@
     <Compile Include="NeoException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reflection.cs" />
+    <Compile Include="Retry.cs" />
     <Compile Include="RollingAverage.cs" />
     <Compile Include="scanf.cs" />
     <Compile Include="Scanner.cs" />

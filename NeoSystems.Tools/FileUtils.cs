@@ -185,6 +185,19 @@ namespace NeoSystems.Tools
     public class FileUtils
     {
         /// <summary>
+        /// Make a valid filename from a string with invalid filename chars
+        /// </summary>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        public static string MakeValidFileName(string name)
+        {
+            string invalidChars = Regex.Escape(new string(Path.GetInvalidFileNameChars()));
+            string invalidRegStr = string.Format(@"([{0}]*\.+$)|([{0}]+)", invalidChars);
+
+            return Regex.Replace(name, invalidRegStr, "_");
+        }
+
+        /// <summary>
         /// Delegate method for repeated performing an operation on files
         /// </summary>
         /// <param name="Filename"></param>
