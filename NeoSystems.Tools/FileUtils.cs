@@ -296,6 +296,15 @@ namespace NeoSystems.Tools
         }
 
         /// <summary>
+        /// returns the path to the application executable
+        /// </summary>
+        /// <returns></returns>
+        public static string GetApplicationPath()
+        {
+            return Path.GetFullPath(Process.GetCurrentProcess().MainModule.FileName);
+        }
+
+        /// <summary>
         /// Append text to any file
         /// </summary>
         /// <param name="filename"></param>

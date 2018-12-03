@@ -51,6 +51,7 @@
     <Compile Include="EmailUtils.cs" />
     <Compile Include="Encryption.cs" />
     <Compile Include="EnumUtils.cs" />
+    <Compile Include="EventhandlerExtensions.cs" />
     <Compile Include="FileUtils.cs" />
     <Compile Include="IBaseApplication.cs" />
     <Compile Include="ListExtensions.cs" />
