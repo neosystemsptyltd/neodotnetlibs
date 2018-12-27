@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>neosystems.tools</id>
-    <version>0.0.4-alpha</version>
+    <version>0.0.5-alpha</version>
     <title>NeoSystems.Tools</title>
     <authors>armand</authors>
     <owners>armand</owners>
@@ -11,7 +11,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Neo Systems .NET libraries</description>
     <releaseNotes>Rolling average template class added</releaseNotes>
-    <copyright>Copyright 2017</copyright>
+    <copyright>Copyright 2018</copyright>
     <tags>files serialport array web enum ascii bcd currency encryption datetime list exception string type time text settings console scanner scanf reflection math application email</tags>
   </metadata>
 </package>

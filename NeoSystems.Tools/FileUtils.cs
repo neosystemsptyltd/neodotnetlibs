@@ -318,6 +318,25 @@ namespace NeoSystems.Tools
                 sw.Write(text);
             }
         }
+
+        /// <summary>
+        /// append one file to another
+        /// </summary>
+        /// <param name="originalfile">original file</param>
+        /// <param name="appendfile">file to append to original file</param>
+        public static void AppendFileToFile(string originalfile, string appendfile)
+        {
+            using (StreamWriter w = File.AppendText(originalfile))
+            {
+                using (StreamReader r = File.OpenText(appendfile))
+                {
+                    while (!r.EndOfStream)
+                    {
+                        w.WriteLine(r.ReadLine());
+                    }
+                }
+            }
+        }
     }
 
     // ************************************************************************

@@ -167,6 +167,8 @@ Library.
 
  */
 
+// taken and adapted from http://www.blackbeltcoder.com/Articles/strings/a-sscanf-replacement-for-net
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

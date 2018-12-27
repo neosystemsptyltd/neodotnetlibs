@@ -50,6 +50,7 @@
     <Compile Include="DateTimeExtensions.cs" />
     <Compile Include="EmailUtils.cs" />
     <Compile Include="Encryption.cs" />
+    <Compile Include="EnumExtensions.cs" />
     <Compile Include="EnumUtils.cs" />
     <Compile Include="EventhandlerExtensions.cs" />
     <Compile Include="FileUtils.cs" />
@@ -74,6 +75,7 @@
     <Compile Include="SubStringExtensions.cs" />
     <Compile Include="textparser.cs" />
     <Compile Include="TextUtils.cs" />
+    <Compile Include="TextWriterExtensions.cs" />
     <Compile Include="TimeUtils.cs" />
     <Compile Include="TypeUtils.cs" />
     <Compile Include="WebUtils.cs" />
